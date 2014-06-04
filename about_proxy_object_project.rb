@@ -17,6 +17,18 @@ class Proxy
     @object = target_object
     # ADD MORE CODE HERE
   end
+  def channel
+    @object.channel
+  end
+  def channel= value
+    @object.channel = value
+  end
+  def power
+    @object.power
+  end
+  def on?
+    @object.on?
+  end
 
   # WRITE CODE HERE
 end
